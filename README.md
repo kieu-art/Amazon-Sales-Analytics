@@ -65,5 +65,9 @@ Amazon-Sales-Analytics/
 └── README.md
     └── Project documentation
 ```
+##  Conclusion
+
+The analysis highlights strong B2C demand and generally successful shipping performance, while identifying **Merchant fulfilment and order cancellations** as key areas for operational improvement
+The dashboard provides a consolidated view of **sales, products, fulfilment, cancellations, and geographic demand** to support data-driven decision-making
 
 
