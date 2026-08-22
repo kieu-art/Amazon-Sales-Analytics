@@ -6,16 +6,21 @@ The project covers the analytics lifecycle from raw data preparation and SQL-bas
 
 The analysis is based on 128,969 cleaned Amazon sales transactions covering the period from 31 March 2022 to 29 June 2022.
 
-## Objectives 
-The main objectives of this project are to:
-* Demonstrate practical SQL and Power BI skills through a real-world sales dataset
-* Analyse overall sales and order performance
-* Identify top-performing product categories and sizes
-* Evaluate Amazon vs. Merchant fulfilment performance
-* Analyse order cancellation behaviour
-* Measure shipping performance
-* Identify geographic demand patterns
-* Create an interactive and portfolio-ready Power BI dashboard
+## Business Context
+
+Amazon sales operations involve multiple dimensions of performance, including product demand, fulfilment method, shipping status, cancellations, and geographic distribution. 
+
+This project focuses on understanding:
+* Which products and categories drive revenue?
+* How does sales performance change over time?
+* Does Amazon or Merchant fulfilment perform better?
+* Where are cancellations concentrated?
+* What proportion of orders successfully progress through shipping?
+* Which geographic markets generate the most demand?
+* How important are B2B and B2C customer segments?
+* Where are the main opportunities for operational improvement?
+
+The analysis uses SQL as the analytical layer and Power BI as the reporting and visualisation layer.
 
 ## What this project demonstrates
 | Skill Area | Details |
