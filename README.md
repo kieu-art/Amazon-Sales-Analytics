@@ -30,24 +30,35 @@ The main objectives of this project are to:
 | **Business Recommendations** | Operational and commercial recommendations based on analytical findings |
 
 ## Project Structure: 
+## 📁 Project Structure
+
+```text
 Amazon-Sales-Analytics/
-│
-├── README.md
 │
 ├── data/
 │   └── Amazon Sale Report.csv
+│       └── Raw Amazon sales dataset
 │
 ├── SQL/
 │   ├── Data_Cleaning.sql
+│   │   └── Data preparation and cleaning
+│   │
 │   └── EDA.sql
+│       └── Exploratory data analysis and business queries
 │
 ├── PowerBI/
 │   └── Amazon_Sales.pbix
+│       └── Interactive Power BI dashboard
 │
-└── screenshots/
-    ├── Page_1_Executive_Overview.png
-    ├── Page_2_Sales_Analysis.png
-    ├── Page_3_Fulfilment_Cancellation.png
-    └── Page_4_Geographic_Product.png
+├── screenshots/
+│   ├── Page_1_Executive_Overview.png
+│   ├── Page_2_Sales_Analysis.png
+│   ├── Page_3_Fulfilment_Cancellation.png
+│   └── Page_4_Geographic_Analysis.png
+│       └── Dashboard screenshots
+│
+└── README.md
+    └── Project documentation
+```
 
 
