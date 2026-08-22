@@ -17,5 +17,37 @@ The main objectives of this project are to:
 * Identify geographic demand patterns
 * Create an interactive and portfolio-ready Power BI dashboard
 
+## What this project demonstrates
+| Skill Area | Details |
+|---|---|
+| **Data Cleaning** | Missing-value investigation, duplicate detection, status standardisation, data validation |
+| **SQL Analysis** | Aggregations, CTEs, CASE statements, window functions, ranking and business analysis |
+| **Exploratory Data Analysis** | Sales, product, fulfilment, cancellation and geographic analysis |
+| **KPI Development** | Revenue, orders, cancellation rate, shipping performance and fulfilment KPIs |
+| **Power BI** | Interactive dashboard design, slicers, cross-filtering and business reporting |
+| **DAX** | Dynamic measures and KPI calculations |
+| **Business Intelligence** | Translating transactional data into actionable business insights |
+| **Business Recommendations** | Operational and commercial recommendations based on analytical findings |
+
 ## Project Structure: 
+Amazon-Sales-Analytics/
+│
+├── README.md
+│
+├── data/
+│   └── Amazon Sale Report.csv
+│
+├── SQL/
+│   ├── Data_Cleaning.sql
+│   └── EDA.sql
+│
+├── PowerBI/
+│   └── Amazon_Sales.pbix
+│
+└── screenshots/
+    ├── Page_1_Executive_Overview.png
+    ├── Page_2_Sales_Analysis.png
+    ├── Page_3_Fulfilment_Cancellation.png
+    └── Page_4_Geographic_Product.png
+
 
