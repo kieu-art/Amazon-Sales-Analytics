@@ -1,0 +1,27 @@
+-- =============================================
+--KPI ANALYSIS
+-- =============================================
+
+-- Total Orders
+SELECT COUNT(*) AS TOTAL_ORDERS
+FROM AMAZONREPORT_BACKUP 
+-- The dataset contains 128,969 orders after cleaning 
+
+-- Total Revenue 
+SELECT SUM(AMOUNT) AS TOTAL_REVENUE 
+FROM AMAZONREPORT_BACKUP 
+-- The total revenue generated over the analysis period was approximately 1.03 billion
+
+
+-- Total Cancellation Order and Cancellation Rate
+SELECT COUNT(*) AS TOTAL_ORDER, SUM(CASE WHEN [STATUS] = 'Cancelled' THEN 1 ELSE 0 END) AS CANCELLED_ORDER, 
+    ROUND(100.0 * SUM(CASE WHEN [STATUS] = 'Cancelled' THEN 1 ELSE 0 END)/COUNT(*),2) AS CANCELLATION_RATE 
+FROM AMAZONREPORT_BACKUP 
+-- The total number of cancelled order was 18,329, representing a cancellation rate of a 14.2%
+
+
+-- Shipping Success Rate 
+SELECT SUM(CASE WHEN [Courier_Status] = 'Shipped' THEN 1 ELSE 0 END) AS Shipping_Success_Orders,
+        ROUND(100.0*SUM(CASE WHEN [Courier_Status] = 'Shipped' THEN 1 ELSE 0 END)/COUNT(*),2) AS SHIPPING_SUCCESS_RATE
+FROM AMAZONREPORT_BACKUP 
+-- 84.89% of orders were successfully shipped, indicating a strong overall shipping performance

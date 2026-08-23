@@ -1,0 +1,3 @@
+--1. DATABASE SETUP 
+CREATE DATABASE AmazonSale;
+
