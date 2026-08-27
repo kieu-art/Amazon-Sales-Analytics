@@ -81,7 +81,26 @@ Amazon-Sales-Analytics/
 ### Cancellation Analysis
 ![Cancellation Analysis](Cancellation_Analysis.png)
 
+## Key Business Insights
+Product Performance
 
+* Revenue is concentrated among a relatively small number of product categories, highlighting opportunities to prioritise high-performing categories and products.
+* Product demand varies significantly across size and category segments, suggesting the need for more targeted inventory planning.
+
+Fulfilment
+
+* Amazon fulfilment demonstrates a lower cancellation rate than Merchant fulfilment, indicating stronger operational consistency.
+* Merchant fulfilment represents a key area for operational improvement due to its comparatively higher cancellation rate.
+
+Cancellation & Shipping
+
+* The overall cancellation rate is approximately 14.2%, representing a significant source of potential lost sales.
+* Merchant cancellation rate is approximately 17.5%, compared with 12.8% for Amazon fulfilment.
+* Most orders successfully progress to the shipped stage, but unshipped and cancelled orders indicate opportunities to improve fulfilment execution.
+
+Geographic Distribution
+
+* Demand is concentrated in a limited number of states and cities, creating opportunities for more targeted inventory allocation and regional fulfilment strategies.
 
 ##  Conclusion
 
