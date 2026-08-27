@@ -65,6 +65,24 @@ Amazon-Sales-Analytics/
 └── README.md
     └── Project documentation
 ```
+
+
+## 📊 Dashboard Preview
+
+### Executive Overview
+![Executive Overview](Executive_Overview.png)
+
+### Products Analysis
+![Products Analysis](Products_Analysis.png)
+
+### Sales Analysis
+![Sales Analysis](Sales_Analysis.png)
+
+### Cancellation Analysis
+![Cancellation Analysis](Cancellation_Analysis.png)
+
+
+
 ##  Conclusion
 
 The analysis highlights strong B2C demand and generally successful shipping performance, while identifying **Merchant fulfilment and order cancellations** as key areas for operational improvement
