@@ -102,6 +102,12 @@ Geographic Distribution
 
 * Demand is concentrated in a limited number of states and cities, creating opportunities for more targeted inventory allocation and regional fulfilment strategies
 
+## Dataset
+The dataset was sourced from a publicly available GitHub repository
+**Original Source:** [Amazon Sale Report Dataset](https://www.kaggle.com/datasets/thedevastator/unlock-profits-with-e-commerce-sales-data)
+The dataset was used for educational and analytical purposes
+
+
 ##  Conclusion
 
 The analysis highlights strong B2C demand and generally successful shipping performance, while identifying **Merchant fulfilment and order cancellations** as key areas for operational improvement
